@@ -18,10 +18,11 @@ text-decoration: none;
 }
 
 .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS);
+    padding: 200px 0 200px 0;
+    /* background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS); */
+    background-image: url(assets/gunungrinjani.jpg);
     background-size: cover;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -30,6 +31,7 @@ text-decoration: none;
     font-size: 45px;
     letter-spacing: 3px; /* jarak antar huruf*/
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .top-wrapper p {
@@ -80,8 +82,9 @@ text-decoration: none;
 header {
     height: 65px;
     width: 100%;
-    background-color: rgba(36, 114, 71, 0.9);  /*mengatur warna serta transaparansi background pada nav*/
+    /* background-color: rgba(36, 114, 71, 0.9);  /*mengatur warna serta transaparansi background pada nav*/
     /* Ubah position ke fixed, dan top ke 0 */
+    background-color: rgba(255, 255, 255, 0.9);
     position:fixed;
     top:0;
     
@@ -95,7 +98,9 @@ header {
  }
   
 .header-left {
-    float: left;
+  line-height: 65px;
+  float: left;
+  text-transform: uppercase;
 }
   
 .header-right {
@@ -106,7 +111,7 @@ header {
 .header-right a {
     line-height: 65px;
     padding: 0 25px;
-    color: white;
+    color: black;
     display: block;
     float: left;
     transition: all 0.5s;
@@ -114,15 +119,19 @@ header {
   
 .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid black;
 }
 
 /* tulis CSS wisata dibawah */
 .lesson-wrapper-wisata {
+  position: relative;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #f7f7f7;
     text-align: center;
+    top: -120px;
+    border-radius: 40px;
   }
   
   .heading-wisata {
@@ -195,12 +204,34 @@ header {
 
 /* footer */
 footer {
-    background-color: #24333d;
+    /* background-color: #24333d; */
+    border-top: 1px solid #eee;
+    background-color: white;
     color: #fff;
     height: 120px;
     padding: 40px;
   }
   
+/* message wrapper */
+.message-wrapper{
+  padding-bottom: 80px;
+  text-align: center;
+}
 
-  
-  
+.heading{
+  padding-top: 60px;
+    margin-bottom: 30px;
+    color: #5f5d60;
+}
+.heading h2{
+  font-weight: normal;
+}
+.heading h3{
+  font-weight: normal;
+}
+.message{
+  padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
