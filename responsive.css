@@ -1,10 +1,25 @@
 /* tablet */
 @media all and (max-width: 1000px){
-
+    .lesson-wisata{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .lessons-team{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lesson-team{
+        width: 50%;
+        margin-bottom: 50px;
+    }
 }
 
 /* smartphone */
 @media all and (max-width: 670px){
+    .header-mid{
+        display: block;
+    }
     .header-right{
         display: none;
     }
@@ -33,5 +48,33 @@
     .lesson-wrapper-wisata{
         position: relative;
         top: -55px;
+    }
+    .lesson-wisata{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .lesson-team{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    footer{
+        padding: 0px;
+    }
+    .footer-logo{
+        margin-top: 20px;
+    }
+    .footer-list{
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-list li{
+        display: none;
+    }
+    .follow-us a{
+        position: relative;
+        top: -20px;
+        float: left;
+        margin-right: 20px;
     }
 }

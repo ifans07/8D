@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
     margin: 0;
@@ -9,7 +10,9 @@ body {
 a {
 text-decoration: none;
 }
-
+li{
+  list-style: none;
+}
 .clear {
     clear: left;
   }
@@ -107,21 +110,35 @@ header {
   text-transform: uppercase;
 }
   
+.header-mid{
+  display: none;
+  float: right;
+  line-height: 65px;
+}
+
+.header-mid a{
+  color: black;
+  font-size: 24px;
+}
+
 .header-right {
-    float: right;
-    margin-right: -25px;
+  line-height: 35px;
+  float: right;
+    /* margin-right: -25px; */
 }
   
-.header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: black;
-    display: block;
+.header-right li {
+    /* line-height: 65px; */
+    /* display: block; */
     float: left;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 }
-  
-.header-right a:hover {
+  .header-right li a{
+    color: black;
+    padding: 12px 20px;
+    transition: all 0.5s;
+  }
+.header-right li a:hover {
     background-color: rgba(255, 255, 255, 0.3);
     border-bottom: 4px solid black;
 }
@@ -144,9 +161,9 @@ header {
     color: #5f5d60;
   }
   
-  /* .heading-wisata h2 {
+  .heading-wisata h2 {
     font-weight: normal;
-  } */
+  }
   
   .lesson-wisata {
     float: left;
@@ -176,6 +193,7 @@ header {
 
 /* tulis CSS Team kami dibawah */
 .lesson-wrapper-team {
+  position: relative;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -189,9 +207,9 @@ header {
     color: #5f5d60;
   }
   
-  /* .heading-wisata h2 {
+  .heading-team h2 {
     font-weight: normal;
-  } */
+  }
   
   .lesson-team {
     float: left;
@@ -208,16 +226,61 @@ header {
 
 /* footer */
 footer {
-    /* background-color: #24333d; */
+  box-sizing: unset;
+    background-color: #24333d;
     border-top: 1px solid #eee;
-    background-color: white;
+    /* background-color: white; */
     color: #fff;
     height: 120px;
     padding: 40px;
   }
-  
+.footer-logo{
+  float: left;
+  font-size: 32px;
+}
+.footer-list{
+  float: right;
+}
+.footer-list li{
+  margin-right: 40px;
+}
+.follow-us{
+  float: right;
+}
+.follow-us a{
+  display: block;
+  color: white;
+  padding: 3px;
+}
+.follow-us a:hover .book{
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #3b5998;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+}
+.follow-us a:hover .gram{
+  padding: 5px;
+  background-color: #3b5998;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+}
+.follow-us a:hover .tube{
+  padding: 5px;
+  background-color: #3b5998;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+}
+
 /* message wrapper */
 .message-wrapper{
+  position: relative;
   padding-bottom: 80px;
   text-align: center;
 }
@@ -238,4 +301,10 @@ footer {
     background-color: #5dca88;
     cursor: pointer;
     box-shadow: 0 7px #1a7940;
+}
+
+.message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
