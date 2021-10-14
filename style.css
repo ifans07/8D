@@ -31,10 +31,15 @@ li{
 .top-wrapper {
     padding: 130px 0 380px 0;
     /* background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS); */
-    background-image: url(assets/gunungrinjani.jpg);
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),url(assets/gunungrinjani.jpg);
     background-size: cover;
     color: rgb(26, 25, 25);
     text-align: center;
+    object-fit: cover;
+    min-height: 100vh;
 }
 
 .top-wrapper h1 {
