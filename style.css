@@ -4,10 +4,11 @@
   text-decoration: none;
   font-family: 'Quicksand',sans-serif;
 }
+
 body {
     margin: 0;
     font-family: "Lucida Grande";
-  }
+}
   
 a {
 text-decoration: none;
@@ -168,6 +169,11 @@ header {
   .heading-wisata h2 {
     font-weight: normal;
   }
+
+  .heading-wisata hr{
+    width: 100px;
+    border : 2px solid #5f5d60;
+  }
   
   .lesson-wisata {
     float: left;
@@ -229,9 +235,9 @@ header {
 
 
 /* footer */
-footer {
+.footer-top {
   box-sizing: unset;
-    background-color: #24333d;
+    background-color: #344855;
     border-top: 1px solid #eee;
     /* background-color: white; */
     color: #fff;
@@ -267,7 +273,7 @@ footer {
 }
 .follow-us a:hover .gram{
   padding: 5px;
-  background-color: #3b5998;
+  background-color: #c530a5;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -275,12 +281,20 @@ footer {
 }
 .follow-us a:hover .tube{
   padding: 5px;
-  background-color: #3b5998;
+  background-color: #be2317;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   color: white;
 }
+
+.footer-copyright {
+    background-color: #2b3b46;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+  }
+
 
 /* message wrapper */
 .message-wrapper{
