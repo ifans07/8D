@@ -29,7 +29,7 @@ li{
 }
 
 .top-wrapper {
-    padding: 130px 0 380px 0;
+    padding: 130px 0 180px 0;
     /* background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS); */
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.4),
@@ -38,8 +38,7 @@ li{
     background-size: cover;
     color: rgb(26, 25, 25);
     text-align: center;
-    object-fit: cover;
-    min-height: 100vh;
+    background-position: 0 -90px;
 }
 
 .top-wrapper h1 {
