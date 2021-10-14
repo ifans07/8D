@@ -3,6 +3,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Quicksand',sans-serif;
+  transition: 0.2s ease-in-out;
 }
 
 body {
@@ -84,6 +85,7 @@ li{
 /*berubah warna tombol ketika kursor diarahkan*/
 .btn:hover {
     opacity: 1;
+    letter-spacing: 2px;
 }
 
 /*jarak ke kanan icon fb dan twitter*/
@@ -155,7 +157,7 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     background-color: #f7f7f7;
-    text-align: center;
+    text-align: left;
     top: -120px;
     border-radius: 40px;
   }
@@ -164,6 +166,7 @@ header {
     padding-top: 80px;
     padding-bottom: 50px;
     color: #5f5d60;
+    text-align: center;
   }
   
   .heading-wisata h2 {
@@ -178,28 +181,65 @@ header {
   .lesson-wisata {
     float: left;
     width: 25%;
+    border-radius: 4px;
+    padding: 10px;
   }
   
   .lesson-icon-wisata {
     position: relative;
+    overflow:hidden;
+    width: 100%;
   }
-  
-  .lesson-icon-wisata p {
+  .lesson-icon-wisata img{
+    height: 50%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .lesson-wisata:hover .lesson-icon-wisata img{
+    transform: scale(1.2);
+  }
+  .lesson-wisata:hover{
+    position: relative;
+    bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    border: none;
+  }
+  .title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .stars i{
+    font-size: 1.5rem;
+    color: gold;
+}
+  .content .text-contents-wisata{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color:#ccc;
+    padding:1rem 0;
+  }
+.btn-wisata{
+  background-color: green;
+}
+  /* .lesson-icon-wisata p {
     position: absolute;
     top: 44%;
     width: 100%;
     color: rgb(255, 255, 255);
     font-size:20px;
     font-weight: bold;
-  }
+  } */
   
-  .text-contents-wisata {
+  /* .text-contents-wisata {
     width: 80%;
     display: inline-block;
     margin-top: 15px;
     font-size: 15px;
     color: #b3aeb5;
-  }
+  } */
 
 /* tulis CSS Team kami dibawah */
 .lesson-wrapper-team {
@@ -229,7 +269,13 @@ header {
   .lesson-icon-team {
     position: relative;
   }
-  
+  .lesson-icon-team img{
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
 
 
