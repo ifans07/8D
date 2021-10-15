@@ -162,7 +162,7 @@ header {
     padding-right: 5%;
     background-color: #f7f7f7;
     text-align: left;
-    top: -120px;
+    top: -80px;
     border-radius: 40px;
   }
   
@@ -268,7 +268,22 @@ header {
     float: left;
     width: 20%;
   }
-  
+  .lesson-team:hover .quote{
+    animation: quote 1s alternate;
+  }
+  @keyframes quote{
+    25%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    100%{
+      transform: rotate(360deg);
+  }
   .lesson-icon-team {
     position: relative;
   }
