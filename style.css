@@ -29,16 +29,15 @@ li{
 }
 
 .top-wrapper {
-    padding: 130px 0 180px 0;
+    padding: 200px 0 200px 0;
     /* background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS); */
     background-image: linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgb(255,255,255, 0.4),
+      rgb(255,255,255, 0.4)
     ),url(assets/gunungrinjani.jpg);
     background-size: cover;
     color: rgb(26, 25, 25);
     text-align: center;
-    background-position: 0 -90px;
 }
 
 .top-wrapper h1 {
@@ -64,7 +63,7 @@ li{
     margin: 10px 0; /*atas dan bawah*/
 }
 
-.signup {
+/* .signup {
     background-color: #883628;
 }
 
@@ -75,7 +74,7 @@ li{
 
 .twitter {
     background-color: #55acee;
-}
+} */
 
 /*utk tombol mulai belajar*/
 .btn {
@@ -151,7 +150,7 @@ header {
   }
 .header-right li a:hover {
     background-color: rgba(255, 255, 255, 0.3);
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #42bfa6;
 }
 
 /* tulis CSS wisata dibawah */
@@ -162,7 +161,7 @@ header {
     padding-right: 5%;
     background-color: #f7f7f7;
     text-align: left;
-    top: -20px;
+    top: -50px;
     border-radius: 40px;
   }
   
@@ -225,7 +224,7 @@ header {
     padding:1rem 0;
   }
 .btn-wisata{
-  background-color: green;
+  background-color: #42bfa6;
 }
   /* .lesson-icon-wisata p {
     position: absolute;
@@ -267,6 +266,7 @@ header {
   .lesson-team {
     float: left;
     width: 20%;
+    padding: 0 20px;
   }
   .lesson-team:hover .quote{
     animation: quote 1s alternate;
@@ -381,7 +381,7 @@ header {
 }
 .message{
   padding: 15px 40px;
-    background-color: #5dca88;
+    background-color: #42bfa6;
     cursor: pointer;
     box-shadow: 0 7px #1a7940;
 }
@@ -390,4 +390,102 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+/* terbaru */
+.adventure-wrapper{
+  display: flex;
+}
+.adventure{
+  width: 100%;
+}
+.adventure img{
+  width: 100%;
+}
+
+.contact-us-wrapper{
+  padding-bottom: 80px;
+}
+.heading h2{
+  text-align: center;
+}
+.contact-us{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form{
+  width: 100%;
+}
+.input-form .input{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #dee7ec;
+  margin: 10px 0 20px 0;
+}
+.contact-img img{
+  width: 100%;
+}
+.contact-submit{
+  padding: 12px 24px;
+  width: 160px;
+  margin-top: 20px;
+  background-color: #42bfa6;
+  color: #fff;
+  border: 1px solid #dee7ec;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sosmed-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.sosmed .fab{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  line-height: 50px;;
+  border-radius: 50%;
+  background-color: #42bfa6;
+  color: white;
+  font-size: 22px;
+}
+.sosmed:hover .fa-facebook-f{
+  color: #3b5998;
+  border: 2px solid #3b5998;
+  background-color: transparent;
+}
+
+.sosmed:hover .fa-twitter{
+  color: #00acee;
+  border: 2px solid #00acee;
+  background-color: transparent;
+}
+.sosmed:hover .fa-instagram{
+  color: #c530a5;
+  border: 2px solid #c530a5;
+  background-color: transparent;
+}
+.sosmed:hover .fa-whatsapp{
+  color: #25D366;
+  border: 2px solid #25D366;
+  background-color: transparent;
+}
+.destinasi-wrapper{
+  padding-bottom: 80px;
+}
+.adventure ul li{
+  list-style: square;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.adventure button{
+  border: none;
+}
+.btn-desc{
+  margin-top: 60px;
 }

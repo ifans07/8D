@@ -54,7 +54,7 @@
     }
     .lesson-wisata{
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .lesson-team{
         width: 100%;
@@ -81,4 +81,14 @@
         margin-right: 20px;
         font-size: 14px;
     }
+    .contact-img{
+        display: none;
+    }
+    .contact-submit{
+        width: 100%;
+    }
+    .svg{
+        display: none;
+    }
 }
+
