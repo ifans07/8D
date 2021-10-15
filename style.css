@@ -162,7 +162,7 @@ header {
     padding-right: 5%;
     background-color: #f7f7f7;
     text-align: left;
-    top: -80px;
+    top: -20px;
     border-radius: 40px;
   }
   
@@ -283,6 +283,7 @@ header {
     }
     100%{
       transform: rotate(360deg);
+    }
   }
   .lesson-icon-team {
     position: relative;
