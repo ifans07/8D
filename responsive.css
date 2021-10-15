@@ -16,6 +16,15 @@
     .heading h2{
         font-size: 20px;
     }
+    .contact-img{
+        display: none;
+    }
+    .svg{
+        display: none;
+    }
+    .sosmed .fab{
+        font-size: 14px;
+    }
 }
 
 /* smartphone */
@@ -28,7 +37,7 @@
     }
     .top-wrapper{
         background-position: top;
-        padding: 100px 0;
+        padding: 160px 0;
         text-align: left;
     }
     .top-wrapper h1{
