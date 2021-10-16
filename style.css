@@ -5,10 +5,12 @@
   font-family: 'Quicksand',sans-serif;
   transition: 0.2s ease-in-out;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
-    font-family: "Lucida Grande";
+    padding: 0;
 }
   
 a {
@@ -266,7 +268,11 @@ header {
   .lesson-team {
     float: left;
     width: 20%;
-    padding: 0 20px;
+    padding: 0 12px;
+  }
+  .quote{
+    width: 60px;
+    height: 45px;
   }
   .lesson-team:hover .quote{
     animation: quote 1s alternate;
@@ -285,15 +291,23 @@ header {
       transform: rotate(360deg);
     }
   }
-  .lesson-icon-team {
-    position: relative;
-  }
+  
   .lesson-icon-team img{
     position: relative;
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .lesson-team p{
+    height: 150px;
+  }
+  .lesson-team h3{
+    line-height: 5px;
+  }
+  .lesson-team .normal{
+    font-weight: normal;
   }
 
 
