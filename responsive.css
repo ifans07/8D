@@ -40,8 +40,7 @@
         display: none;
     }
     .top-wrapper{
-        background-position: top;
-        padding: 160px 0;
+        /* background-position: top; */
         text-align: left;
     }
     .top-wrapper h1{
