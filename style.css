@@ -5,7 +5,9 @@
   font-family: 'Quicksand',sans-serif;
   transition: 0.2s ease-in-out;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -110,15 +112,14 @@ header {
 }
 
 .logo {
-    width: 128px;
-    height: 73px;
+    width: 124px;
+    /* height: 73px; */
     margin-top: 7px;
  }
 
 .header-left {
-  line-height: 80px;
+  /* line-height: 80px; */
   float: left;
-  text-transform: uppercase;
 }
   
 .header-mid{
@@ -349,6 +350,10 @@ header {
     width: 20%;
     padding: 0 20px;
   }
+  .quote{
+    width: 60px;
+    height: 45px;
+  }
   .lesson-team:hover .quote{
     animation: quote 1s alternate;
   }
@@ -375,12 +380,25 @@ header {
     width: 7rem;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .lesson-team p{
+    height: 150px;
+  }
+  .lesson-team h3{
+    line-height: 5px;
+  }
+  .lesson-team .normal{
+    font-weight: normal;
   }
 
 
 
 
 /* footer */
+footer{
+  background-color: #344855;
+}
 .footer-top {
   box-sizing: unset;
     background-color: #344855;
@@ -442,8 +460,8 @@ header {
   }
 /* terbaru */
   .footer-logo {
-    width: 250px;
-    height: 126px;
+    max-width: 250px;
+    max-height: 126px;
   }
     /*akhir footer  */
 
@@ -515,6 +533,7 @@ header {
 }
 .contact-img img{
   width: 100%;
+  height: auto;
 }
 .contact-submit{
   padding: 12px 24px;
