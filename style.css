@@ -5,16 +5,14 @@
   font-family: 'Quicksand',sans-serif;
   transition: 0.2s ease-in-out;
 }
-html{
-  scroll-behavior: smooth;
-}
+
 body {
     margin: 0;
-    padding: 0;
+    font-family: "Lucida Grande";
 }
   
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 li{
   list-style: none;
@@ -99,7 +97,7 @@ li{
 }
 
 header {
-    height: 65px;
+    height: 85px;
     width: 100%;
     /* background-color: rgba(36, 114, 71, 0.9);  /*mengatur warna serta transaparansi background pada nav*/
     /* Ubah position ke fixed, dan top ke 0 */
@@ -112,12 +110,13 @@ header {
 }
 
 .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 128px;
+    height: 73px;
+    margin-top: 7px;
  }
-  
+
 .header-left {
-  line-height: 65px;
+  line-height: 80px;
   float: left;
   text-transform: uppercase;
 }
@@ -134,7 +133,7 @@ header {
 }
 
 .header-right {
-  line-height: 35px;
+  line-height: 45px;
   float: right;
     /* margin-right: -25px; */
 }
@@ -144,6 +143,10 @@ header {
     /* display: block; */
     float: left;
     /* transition: all 0.5s; */
+}
+
+.header-right a{
+  font-weight: bold;
 }
   .header-right li a{
     color: black;
@@ -245,6 +248,82 @@ header {
     color: #b3aeb5;
   } */
 
+/* css kuliner */
+
+/* akhir css kuliner */
+.lesson-wrapper-kuliner {
+  position: relative;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: left;
+    top: -50px;
+    border-radius: 40px;
+  }
+  
+  .heading-kuliner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+    text-align: center;
+  }
+  
+  .heading-kuliner h2 {
+    font-weight: normal;
+  }
+
+  .heading-kuliner hr{
+    width: 100px;
+    border : 2px solid #5f5d60;
+  }
+  
+  .lesson-kuliner {
+    float: left;
+    width: 25%;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .lesson-icon-kuliner {
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+  }
+  .lesson-icon-kuliner img{
+    height: 50%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .lesson-kuliner:hover .lesson-icon-kuliner img{
+    transform: scale(1.2);
+  }
+  .lesson-kuliner:hover{
+    position: relative;
+    bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    background-color: white;
+  }
+  .title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .stars i{
+    font-size: 1.5rem;
+    color: gold;
+}
+  .content .text-contents-wisata{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color:#ccc;
+    padding:1rem 0;
+  }
+.btn-kuliner{
+  background-color: #42bfa6;
+}
+
 /* tulis CSS Team kami dibawah */
 .lesson-wrapper-team {
   position: relative;
@@ -268,11 +347,7 @@ header {
   .lesson-team {
     float: left;
     width: 20%;
-    padding: 0 12px;
-  }
-  .quote{
-    width: 60px;
-    height: 45px;
+    padding: 0 20px;
   }
   .lesson-team:hover .quote{
     animation: quote 1s alternate;
@@ -291,23 +366,15 @@ header {
       transform: rotate(360deg);
     }
   }
-  
+  .lesson-icon-team {
+    position: relative;
+  }
   .lesson-icon-team img{
     position: relative;
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
-  }
-  .lesson-team p{
-    height: 150px;
-  }
-  .lesson-team h3{
-    line-height: 5px;
-  }
-  .lesson-team .normal{
-    font-weight: normal;
   }
 
 
@@ -373,6 +440,12 @@ header {
     color: #fff;
     line-height: 60px;
   }
+/* terbaru */
+  .footer-logo {
+    width: 250px;
+    height: 126px;
+  }
+    /*akhir footer  */
 
 
 /* message wrapper */
@@ -407,6 +480,7 @@ header {
 }
 
 /* terbaru */
+/* ilustrasi */
 .adventure-wrapper{
   display: flex;
 }
@@ -416,7 +490,9 @@ header {
 .adventure img{
   width: 100%;
 }
+/* akhir ilustrasi */
 
+/* contact */
 .contact-us-wrapper{
   padding-bottom: 80px;
 }
